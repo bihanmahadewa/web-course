@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Part - 3</title>
+    <style>
+        /* change color to red on all HTML <p> elements */
+        p { color:red; }
+        /* change color to blue on single HTML element with ID para1 */
+        #para1 {color : blue;}
+        /* change color to yellow on all HTML elements with class yellow-text */
+        .yellow-text {color: yellow}
+
+        #box{width: 100px; height: 100px; background-color: tomato; position: relative; animation-name: myanimation; animation-duration: 5s;}
+
+        @keyframes myanimation {
+            0% {top: 0px; left: 0px;}
+            100% {left: 200px; top: 0px}
+        }
+    </style>
+</head>
+<body>
+    <p class="yellow-text">Hellow Paragraph</p>
+    <p id="para1">Another Para</p>
+    <p class="yellow-text">Another Paragraph as well</p>
+
+    <div id="box">
+
+    </div>
+</body>
+</html>

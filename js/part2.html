@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS - Part 2</title>
+</head>
+<body>
+
+    <script>
+
+        var name = "Bihan <br/>";
+        document.write(name);
+
+        for (var i = 1; i <= 10; i++){
+            document.write(i + "<br/>");
+        }
+
+        var x = 0;
+        while (x < 15){
+            document.write(x + "<br/>")
+            x++;
+        }
+
+        var newName = prompt("Enter your name:");
+        myFunc(newName);
+
+        function myFunc(myName){
+            // document.write("Hello " + myName);
+            alert("Hello " + myName);
+        }
+    </script>
+    
+</body>
+</html>
